@@ -11,4 +11,4 @@ const channelsListQuery = gql`
    }
 `;
 
-export default ChannelsListWithData = graphql(channelsListQuery)(ChannelsList);
+export default graphql(channelsListQuery)(ChannelsList);
